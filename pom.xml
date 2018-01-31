@@ -15,11 +15,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>JenkinsWar</finalName>
-  </build>
   
-  <distributionManagement>
+   <distributionManagement>
      
     <repository>
       <id>Releasenexus</id>
@@ -28,5 +25,10 @@
     </repository>
 
     </distributionManagement>
+  
+  <build>
+    <finalName>JenkinsWar</finalName>
+  </build>
+  
   
 </project>
