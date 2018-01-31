@@ -18,4 +18,15 @@
   <build>
     <finalName>JenkinsWar</finalName>
   </build>
+  
+  <distributionManagement>
+     
+    <repository>
+      <id>Releasenexus</id>
+      <name>Releasenexus</name>
+      <url>http://192.168.136.133:8081/nexus/content/repositories/Releasenexus/</url>
+    </repository>
+
+    </distributionManagement>
+  
 </project>
